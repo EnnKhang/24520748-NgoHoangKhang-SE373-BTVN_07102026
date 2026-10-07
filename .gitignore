@@ -1,0 +1,23 @@
+# Tệp chứa API Key và biến môi trường bí mật (BẮT BUỘC KHÔNG PUSH)
+.env
+*.env
+.env.local
+
+# Thư mục môi trường ảo Python (quá nặng, không cần push)
+.venv/
+venv/
+env/
+
+# Bộ nhớ đệm Python & Pytest
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Thư mục cấu hình IDE / Editor
+.vscode/
+.idea/
+
+# Hệ điều hành
+.DS_Store
+Thumbs.db
